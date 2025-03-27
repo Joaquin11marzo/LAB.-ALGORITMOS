@@ -16,12 +16,6 @@ persona3 = {
     "edad" : "3,14",
     "ciudad" : "yankelandia"
 }
-print("PERSONA 1")
-for info ,indv in persona1.items():
-    print(info, ":", indv)
-print("PERSONA 2")
-for info ,indv in persona1.items():
-    print(info, ":", indv)
-print("PERSONA 3")
-for info ,indv in persona1.items():
-    print(info, ":", indv)
+gente = [persona1, persona2, persona3]
+for info in gente:
+    print(info)
